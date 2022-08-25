@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0;
+}
+
+.form-container {
+    width: 700px;
+    height: fit-content;
+    background: white;
+    border-radius: 15px;
+    padding: 20px 20px 60px 20px;
+}
+
+form {
+    width: 100%;
+}
+
+form > h1 {
+    color: black;
+    font: 600 20px 'Open Sans', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-container > label {
+    color: black;
+    font: 500 17px 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.input-container > input {
+    height: 40px;
+    background: transparent;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    font: 500 15px 'Open Sans', sans-serif;
+    color: #666;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#name-error {
+    font: 600 15px 'Open Sans', sans-serif;
+    color: #900;
+    margin-bottom: 15px;
+    display: none;
+}
+
+#age-error {
+    font: 600 15px 'Open Sans', sans-serif;
+    color: #900;
+    margin-bottom: 15px;
+    display: none;
+}
+
+#email-error {
+    font: 600 15px 'Open Sans', sans-serif;
+    color: #900;
+    margin-bottom: 15px;
+    display: none;
+}
+
+#grad-error {
+    font: 600 15px 'Open Sans', sans-serif;
+    color: #900;
+    margin-bottom: 15px;
+    display: none;
+}
+
+form > button {
+    background: blue;
+    width: 100%;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font: 500 13px 'Open Sans', sans-serif;
+}
